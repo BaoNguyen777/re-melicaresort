@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap');
+@import 'tailwindcss';
+
+:root{--ink:#17231d;--cream:#f5f0e7;--sand:#d8c5a6;--sage:#73846c;--line:rgba(23,35,29,.14)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif}a{text-decoration:none;color:inherit}.serif{font-family:'Playfair Display',serif}.grain{background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.035'/%3E%3C/svg%3E")}.navlink{position:relative}.navlink:after{content:'';position:absolute;left:0;bottom:-7px;width:0;height:1px;background:currentColor;transition:.3s}.navlink:hover:after{width:100%}.image{transition:transform .8s cubic-bezier(.2,.7,.2,1)}.image-wrap:hover .image{transform:scale(1.045)}
